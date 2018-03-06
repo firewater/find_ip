@@ -15,11 +15,15 @@ After pinging, information about the IP address is gathered from ip-api.com then
 2. In a browser: 127.0.0.1:8080
 3. To quit: control-c until the prompt is returned
 
-### Prerequisites
+## Prerequisites
 
 1. Python 3.6.2+
 2. [karellen-sqlite](https://pypi.python.org/pypi/karellen-sqlite)
 3. [tornado](http://www.tornadoweb.org/en/stable/)
+
+## Tested On
+* Ubuntu 16.04 LTS
+* Firefox 58.0.2 (64-bit)
 
 ## How It Works
 
