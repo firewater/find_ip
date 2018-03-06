@@ -1,0 +1,27 @@
+/* Hosts column */
+#hosts_col {
+	border-right: 1px solid black;
+	overflow-y: scroll;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+
+/* Each host */
+div.host {
+	border-bottom: 1px solid silver;
+}
+
+ul.host_info {
+	font-size: small;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* The map */
+#map {
+	min-height: 100vh;
+}
