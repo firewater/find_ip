@@ -3,7 +3,7 @@ Get IP info and display on a map.
 
 find_ip is a Python-based client-side web application that pings every IPv4 address, collects some information about it, then displays its location on a Google Map: 
 
-...insert image...
+![find_ip screenshot](/find_ip.png?raw=true "find_ip screenshot")
 
 Since there are 4,294,967,296 IPv4 addresses, the script uses Python's multiprocessing module to ping several hosts in parallel. The more cores available, the faster the pinging. Upon starting the script, it will report the number of available CPUs/cores.
 
@@ -23,7 +23,7 @@ After pinging, information about the IP address is gathered from ip-api.com then
 
 ## How It Works
 
-...insert images...
+![find_ip screenshot](/find_ip_diagram.jpg?raw=true "find_ip screenshot")
 
 ## Built With
 
